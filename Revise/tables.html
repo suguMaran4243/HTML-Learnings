@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr,td{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tables</h1>
+   
+    <table>
+        <caption>Marks of the Students</caption>
+        <tr>
+        <thead>
+            <th>Name</th>
+            <th>Tamil</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Social</th>
+        </thead>
+        </tr>
+        <tr>
+            <td>Sugu</td>
+            <td>98</td>
+            <td>97</td>
+            <td>99</td>
+            <td>100</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Suve</td>
+            <td>99</td>
+            <td>97</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Thiru</td>
+            <td>99</td>
+            <td>97</td>
+            <td>90</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tfoot>
+            <td colspan="5">Total</td></tfoot>
+    </table>
+    <h2>creating table inside the table</h2>
+    <table style="border: 1px solid;width: 200px;font-size:50px;">
+       <tr>
+        <thead>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </thead>
+       </tr>
+       <tr>
+        <td>
+           <table >
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            
+           </table>
+        </td>
+       </tr>
+       <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+       </tr>
+    </table>
+</body>
+</html>
